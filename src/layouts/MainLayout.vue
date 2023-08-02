@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header>
+    <!-- <q-header>
       <q-toolbar>
         <q-toolbar-title> LOGO </q-toolbar-title>
-        <div>Quasar v{{ $q.version }}</div>
+        <nav></nav>
         <q-btn
           flat
           dense
@@ -12,6 +12,23 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
+      </q-toolbar>
+    </q-header> -->
+
+    <q-header reveal class="bg-white text1" height-hint="98">
+      <q-toolbar class="flex justify-between">
+        <q-avatar>
+          <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+        </q-avatar>
+        <q-tabs>
+          <q-route-tab no-caps to="/" label="Inicio" />
+          <q-route-tab no-caps to="/" label="Nosotros" />
+          <q-route-tab no-caps to="/" label="Equipo" />
+          <q-route-tab no-caps to="/" label="Preguntas" />
+          <q-route-tab no-caps to="/" label="Reseñas" />
+          <q-route-tab no-caps to="/" label="Contáctanos" />
+          <StyledButton />
+        </q-tabs>
       </q-toolbar>
     </q-header>
 
@@ -35,6 +52,7 @@
 
 <script>
 import { defineComponent, ref } from "vue";
+import StyledButton from "components/StyledButton.vue";
 // import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
@@ -86,6 +104,7 @@ export default defineComponent({
   name: "MainLayout",
 
   components: {
+    StyledButton,
     // EssentialLink,
   },
 
