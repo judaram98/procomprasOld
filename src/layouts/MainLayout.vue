@@ -27,7 +27,7 @@
           <q-route-tab no-caps to="/" label="Preguntas" />
           <q-route-tab no-caps to="/" label="Reseñas" />
           <q-route-tab no-caps to="/" label="Contáctanos" />
-          <StyledButton />
+          <StyledButton title="Ingresar" />
         </q-tabs>
       </q-toolbar>
     </q-header>
