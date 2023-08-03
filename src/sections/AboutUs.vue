@@ -1,5 +1,5 @@
 <template>
-  <q-card-section class="prueba flex flex-center">
+  <q-card-section class="flex flex-center">
     <p>Acerca de nosotros componente</p>
   </q-card-section>
 </template>
