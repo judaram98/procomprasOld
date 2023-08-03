@@ -1,17 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* app global css */
-body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
-}
-.text1 {
-  color: #576167 !important;
-}
-.text2 {
-  color: #b0b5bc !important;
-}
-.text3 {
-  color: #d4d4d4 !important;
-}
-.prueba {
-  border: 2px solid red;
-}
