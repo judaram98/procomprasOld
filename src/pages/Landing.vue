@@ -13,14 +13,14 @@
 
 <script>
 import { defineComponent } from "vue";
-import WhatWeDo from "src/sections/WhatWeDo.vue";
-import Hero from "src/sections/HeroComponent.vue";
-import AboutUs from "src/sections/AboutUs.vue";
-import MeetUs from "src/sections/MeetUs.vue";
-import QuestionsComponent from "src/sections/QuestionsComponent.vue";
-import ClientReviews from "src/sections/ClientReviews.vue";
-import ContactUs from "src/sections/ContactUs.vue";
-import LandingFooter from "src/sections/LandingFooter.vue";
+import WhatWeDo from "src/modules/sections/WhatWeDo.vue";
+import Hero from "src/modules/sections/HeroComponent.vue";
+import AboutUs from "src/modules/sections/AboutUs.vue";
+import MeetUs from "src/modules/sections/MeetUs.vue";
+import QuestionsComponent from "src/modules//sections/QuestionsComponent.vue";
+import ClientReviews from "src/modules/sections/ClientReviews.vue";
+import ContactUs from "src/modules/sections/ContactUs.vue";
+import LandingFooter from "src/modules/sections/LandingFooter.vue";
 
 export default defineComponent({
   name: "Landing-page",
